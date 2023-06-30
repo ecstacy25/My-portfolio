@@ -1,8 +1,5 @@
 # React JS Portfolio Website
 
-
-
-
 ## 🚀 How to get started?
 
 Clone down this repository. You will need `node.js` and `git` installed globally on your machine.

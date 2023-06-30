@@ -1,6 +1,5 @@
 # React JS Portfolio Website
 
-[🔗Live Demo🔗](https://rtaghizadev.vercel.app/)
 
 
 

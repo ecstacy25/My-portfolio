@@ -16,7 +16,7 @@ const Intro = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={img} alt="Rasif Taghizade" />
+            <img src={img} alt="Ibiam Arua" />
           </div>
         </div>
         <div className="about__content">
@@ -24,7 +24,7 @@ const Intro = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1.5 year</small>
+              <small>3 years</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
@@ -33,7 +33,7 @@ const Intro = () => {
             </article>
           </div>
           <p>
-            1+ years experienced Front End Developer with hands-on experience in
+            3 years experienced Front End Developer with hands-on experience in
             identifying web-based user interactions along with designing and
             implementing highly-responsive user interface components by
             deploying React concepts. Proficient in translating designs and

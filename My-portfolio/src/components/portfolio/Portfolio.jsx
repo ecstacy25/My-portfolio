@@ -19,7 +19,7 @@ const Portfolio = () => {
         "An educational website is a huge interactive platform to present various information for people.",
       technologies: "Html | CSS | Javascript | React Js",
       link: "https://educational-website-reactjs.netlify.app/",
-      github: "https://github.com/Rasif-Taghizada/Educational-Website-ReactJs",
+      // github: "https://github.com/Rasif-Taghizada/Educational-Website-ReactJs",
     },
     {
       id: 2,

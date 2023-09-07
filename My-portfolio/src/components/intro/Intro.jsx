@@ -24,11 +24,7 @@ const Intro = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-<<<<<<< HEAD:My-portfolio/src/components/intro/Intro.jsx
-              <small>3 years</small>
-=======
               <small>3+ year</small>
->>>>>>> 37e97ea7d0d71dc021273983f6a7a61a93eaa7b6:My-portfolio-master/src/components/intro/Intro.jsx
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />

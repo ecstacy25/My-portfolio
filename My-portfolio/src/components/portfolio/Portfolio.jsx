@@ -1,10 +1,10 @@
 import "./portfolio.css";
 
-import IMG1 from "../../assets/Educational Website.jpg";
-import IMG2 from "../../assets/Weather-app.PNG";
+import IMG1 from "../../assets/Smeconnect1.PNG";
+import IMG2 from "../../assets/a1agro.PNG";
 import IMG3 from "../../assets/Startup Agency Project.jpg";
-import IMG4 from "../../assets/movie-app.PNG";
-import IMG5 from "../../assets/Jokes Project.jpg";
+import IMG4 from "../../assets/2geda.PNG";
+import IMG5 from "../../assets/Ola.PNG";
 import IMG6 from "../../assets/Project4.jpg";
 import React from "react";
 
@@ -13,32 +13,34 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: "Educational Website with React.js",
-      img: IMG1,
+      title: "2geda Project",
+      img: IMG4,
       description:
-        "An educational website is a huge interactive platform to present various information for people.",
+        "This is a social media website that updates users about the latest happenings in the society",
       technologies: "Html | CSS | Javascript | React Js",
-      link: "https://educational-website-reactjs.netlify.app/",
-      // github: "https://github.com/Rasif-Taghizada/Educational-Website-ReactJs",
+      link: "https://2geda-project.netlify.app/",
+      github: "https://github.com/ecstacy25/2geda-Project",
     },
     {
       id: 2,
-      title: "Movie App(IMDB clone)",
-      img: IMG4,
+      title: "SME Website with React.js",
+      img: IMG1,
       description:
-        "This is a site that shows popular, top rated and upcoming movies. It is a clone of the IMDB movie platform",
-      technologies: "Html | CSS | Javascript | React Js",
-      link: "https://movie-app-imdb-cloned.netlify.app",
-      github: "https://github.com/ecstacy25/IMDB-clone-ReactApp",
+        "A Small and Medium scale enterprise website.",
+      technologies:
+        "Html | TailwindCSS | Javascript | React Js | Node js | MongoDB",
+      link: "https://https://smeconnectz.netlify.app/",
+      github: "https://github.com/ecstacy25/Sme_connect-project",
     },
     {
       id: 3,
-      title: "Weather App",
+      title: "A1agro Project",
       img: IMG2,
-      description: "This site allows you search for any city in world and it would return the weather forcast for the searched location",
+      description:
+        "This is an Agro export website that showcases different products.",
       technologies: " Html | CSS | JavaScript | React js",
-      link: "https://weather-search-app1.netlify.app/",
-      github: "https://github.com/ecstacy25/Weather_app",
+      link: "https://a1agrofoods.netlify.app/",
+      github: "https://github.com/ecstacy25/A1_Agro",
     },
     {
       id: 4,
@@ -52,13 +54,13 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      title: "Jokes Project with Typescript",
+      title: "Olasystems Project",
       img: IMG5,
       description:
-        "For when you need a fast funny joke, here are some short jokes to get anyone giggling.",
-      technologies: "Html | Styled-components | Typescript",
-      link: "https://jokes-project.vercel.app/",
-      // github: "https://github.com/Rasif-Taghizada/Joke-App",
+        "This is a Landing page built for a client",
+      technologies: "Html | Css | Javascript | React js",
+      link: "https://olasystems.netlify.app/",
+      github: "https://github.com/Onya01/olesten",
     },
     {
       id: 6,
@@ -73,35 +75,35 @@ const Portfolio = () => {
   ];
 
   return (
-    <section id="portfolio">
+    <section id='portfolio'>
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
-      <div className="container portfolio__container">
+      <div className='container portfolio__container'>
         {soloProjects.map((pro) => (
-          <article className="portfolio__item" key={pro.id}>
-            <div className="portfolio__item-image">
+          <article className='portfolio__item' key={pro.id}>
+            <div className='portfolio__item-image'>
               <img src={pro.img} alt={pro.title} />
             </div>
-            <div className="portfolio__item-content">
+            <div className='portfolio__item-content'>
               <h3>{pro.title}</h3>
               <p>{pro.description}</p>
               <p>{pro.technologies}</p>
             </div>
-            <div className="portfolio__item-cta">
+            <div className='portfolio__item-cta'>
               <a
                 href={pro.github}
-                target="_blank"
-                className="btn"
-                rel="noreferrer"
+                target='_blank'
+                className='btn'
+                rel='noreferrer'
               >
                 GitHub
               </a>
               <a
                 href={pro.link}
-                target="_blank"
-                className="btn btn-primary"
-                rel="noreferrer"
+                target='_blank'
+                className='btn btn-primary'
+                rel='noreferrer'
               >
                 Live Demo
               </a>

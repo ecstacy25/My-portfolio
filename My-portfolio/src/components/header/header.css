@@ -1,4 +1,6 @@
-header {
+
+
+.header {
   height: 100%;
   padding-top: 7rem;
   overflow: hidden;
@@ -8,6 +10,18 @@ header {
   text-align: center;
   height: 100%;
   position: relative;
+  opacity: 0; /* Initially hidden */
+  animation: fadeIn 1s forwards; /* Animation properties */
+}
+
+/* Animation keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* Start from fully transparent */
+  }
+  to {
+    opacity: 1; /* Fade in to fully opaque */
+  }
 }
 
 .cta {

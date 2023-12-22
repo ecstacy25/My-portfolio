@@ -24,7 +24,7 @@ const Intro = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>3+ years</small>
+              <small>4+ years</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
@@ -33,14 +33,8 @@ const Intro = () => {
             </article>
           </div>
           <p>
-            3 years experienced Front End Developer with hands-on experience in
-            identifying web-based user interactions along with designing and
-            implementing highly-responsive user interface components by
-            deploying React concepts. Proficient in translating designs and
-            wireframes into high-quality code, and writing application interface
-            code via JavaScript and React JS workflows. Adept at monitoring and
-            maintaining frontend performance and troubleshooting and debugging
-            the same to bolster overall performance.
+            
+Experienced Front End Developer adept in React with 4+ years of hands-on expertise. Proficient in crafting highly-responsive user interfaces from designs, translating wireframes into quality code, and optimizing frontend performance for seamless user experiences. Skilled in troubleshooting and maintaining frontend efficiency to bolster overall application performance.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
